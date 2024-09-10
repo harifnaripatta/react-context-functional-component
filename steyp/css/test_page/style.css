@@ -1,0 +1,26 @@
+/* h1 {
+  color: red;
+  background-color: yellow;
+  padding: 20px;
+  border: 1px solid gray;
+} */
+h1.heading {
+  color: red;
+  background-color: yellow;
+  padding: 20px;
+  border: 1px solid gray;
+}
+#sub-heading {
+  color: yellow;
+  background-color: red;
+  padding: 25px;
+  border: 2px dotted yellow;
+  text-align: right;
+}
+div {
+  width: 500px;
+  height: 500px;
+  background-color: darkcyan;
+  border-radius: 50%;
+  overflow: scroll;
+}

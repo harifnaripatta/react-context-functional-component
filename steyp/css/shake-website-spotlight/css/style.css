@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+del {
+  text-decoration: line-through;
+}
+body {
+  font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #160647;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-weight: 400;
+}
+input,
+textarea,
+select {
+  font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: #160647;
+}
+a:hover,
+.submit:hover {
+  filter: alpha(opacity = 85);
+  -moz-opacity: 0.85;
+  -khtml-opacity: 0.85;
+  opacity: 0.85;
+}
+.thumb {
+  display: block;
+}
+.thumb img {
+  display: block;
+  width: 100%;
+}
+p {
+  line-height: 1.6em;
+  font-size: 16px;
+  font-family: "Circular-Std-Regular", Arial;
+  font-weight: 400;
+}
+.hidden {
+  display: none;
+}
+br.clear {
+  clear: both;
+  line-height: 0;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+@font-face {
+  font-family: "Circular-Std-Regular";
+  src: url("../fonts/CircularStd-Regular.woff2") format("woff2");
+  src: url("../fonts/CircularStd-Regular.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Circular-Std-Bold";
+  src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+  src: url("../fonts/CircularStd-Bold.woff") format("woff");
+  font-style: normal;
+}
+header {
+  height: 100px;
+  padding: 24px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header h1.left {
+  width: 120px;
+}
+header h1.left a {
+  width: 100%;
+  display: block;
+}
+header h1.left a img {
+  width: 100%;
+  display: block;
+}
+header nav.middle {
+}
+header nav.middle ul {
+  display: flex;
+  gap: 35px;
+}
+header nav.middle ul li {
+}
+header nav.middle ul li a {
+  font-size: 16px;
+  font-family: "Circular-Std-Regular";
+  color: #160647;
+}
+header nav.middle ul li a:hover {
+  text-decoration: underline;
+}
+header div.right {
+}
+header div.right ul {
+  display: flex;
+  gap: 30px;
+}
+header div.right ul li {
+}
+header div.right ul li a {
+  font-size: 16px;
+  font-family: "Circular-Std-Regular";
+  color: #160647;
+}
+header div.right ul li a.button {
+  background-color: #160647;
+  color: #fff;
+  padding: 16px 24px;
+  border-radius: 8px;
+}
+#spotlight {
+  margin-top: 80px;
+  text-align: center;
+}
+#spotlight h1 {
+  width: 65%;
+  font-size: 80px;
+  font-family: "Circular-Std-Bold";
+  margin: 0 auto 24px;
+  color: #160647;
+}
+#spotlight p {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+#spotlight ul {
+  display: flex;
+  gap: 50px;
+  width: 70%;
+  margin: 0 auto;
+}
+#spotlight ul li {
+  width: 48%;
+}
+#spotlight ul li img {
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+#spotlight ul li h2 {
+}
+#spotlight ul li p {
+}
