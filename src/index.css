@@ -54,3 +54,25 @@ body {
   margin: 20px;
   text-align: center;
 }
+.form-container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+input[type="text"],
+input[type="submit"] {
+  padding: 10px 15px;
+  outline: none;
+  font-size: 20px;
+  background-color: #6d3d6d;
+  color: #ddd;
+  border: none;
+  border-radius: 15px;
+}
+input[type="submit"] {
+  border-radius: 15px;
+  background-color: #4c2a4c;
+  border: 1px solid #6d3d6d;
+  font-weight: 800;
+}
